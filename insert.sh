@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get install build-essential
 sudo apt-get install flex
 sudo apt-get install bison
 make
