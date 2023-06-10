@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt-get install flex
+sudo apt-get install bison
 make
 sudo rmmod -f test.ko
 sudo insmod test.ko
